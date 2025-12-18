@@ -1,0 +1,3171 @@
+[
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.058,
+                0.058,
+                0.117,
+                0.1
+            ],
+            "angle": 0,
+            "content": "#"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.123,
+                0.065,
+                0.201,
+                0.088
+            ],
+            "angle": 0,
+            "content": "data"
+        },
+        {
+            "type": "header",
+            "bbox": [
+                0.865,
+                0.065,
+                0.939,
+                0.1
+            ],
+            "angle": 0,
+            "content": "MDPI"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.055,
+                0.123,
+                0.17,
+                0.137
+            ],
+            "angle": 0,
+            "content": "Data Descriptor"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.055,
+                0.138,
+                0.911,
+                0.182
+            ],
+            "angle": 0,
+            "content": "A Comprehensive Dataset of the Aerodynamic and Geometric Coefficients of Airfoils in the Public Domain"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.055,
+                0.195,
+                0.823,
+                0.212
+            ],
+            "angle": 0,
+            "content": "Kanak Agarwal \\(^{\\dagger}\\) \\(\\mathbb{D}\\), Vedant Vijaykrishnan \\(^{\\dagger}\\) \\(\\mathbb{D}\\), Dyutit Mohanty \\(^{\\dagger}\\) \\(\\mathbb{D}\\) and Manikandan Murugaiah *\\(\\mathbb{D}\\)"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.235,
+                0.942,
+                0.261
+            ],
+            "angle": 0,
+            "content": "Department of Aeronautical and Automobile Engineering, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal 576104, India"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.277,
+                0.262,
+                0.571,
+                0.274
+            ],
+            "angle": 0,
+            "content": "* Correspondence: manikandan.m@manipal.edu"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.277,
+                0.275,
+                0.571,
+                0.286
+            ],
+            "angle": 0,
+            "content": "† These authors contributed equally to this work."
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.277,
+                0.262,
+                0.571,
+                0.286
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.302,
+                0.942,
+                0.456
+            ],
+            "angle": 0,
+            "content": "Abstract: This study presents an extensive collection of data on the aerodynamic behavior at a low Reynolds number and geometric coefficients for 2900 airfoils obtained through the class shape transformation (CST) method. By employing a verified OpenFOAM-based CFD simulation framework, lift and drag coefficients were determined at a Reynolds number of \\(10^{5}\\). Considering the limited availability of data on low Reynolds number airfoils, this dataset is invaluable for a wide range of applications, including unmanned aerial vehicles (UAVs) and wind turbines. Additionally, the study offers a method for automating CFD simulations that could be applied to obtain aerodynamic coefficients at higher Reynolds numbers. The breadth of this dataset also supports the enhancement and creation of machine learning (ML) models, further advancing research into the aerodynamics of airfoils and lifting surfaces."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.47,
+                0.942,
+                0.5
+            ],
+            "angle": 0,
+            "content": "Dataset: https://github.com/kanakaero/Dataset-of-Aerodynamic-and-Geometric-Coefficients-of-Airfoils (accessed on 29 April 2024)"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.275,
+                0.516,
+                0.847,
+                0.529
+            ],
+            "angle": 0,
+            "content": "Dataset License: The dataset and the framework are available under the MIT License"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.545,
+                0.942,
+                0.576
+            ],
+            "angle": 0,
+            "content": "Keywords: airfoil; computational fluid dynamics; OpenFOAM; class shape transformation; dataset; aerodynamic coefficients; geometric coefficients; aerodynamics; machine learning"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.057,
+                0.555,
+                0.147,
+                0.577
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.055,
+                0.582,
+                0.254,
+                0.594
+            ],
+            "angle": 0,
+            "content": "Citation: Agarwal, K.; Vijaykrishnan,"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.596,
+                0.236,
+                0.608
+            ],
+            "angle": 0,
+            "content": "V.; Mohanty, D.; Murugaiah, M. A"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.611,
+                0.217,
+                0.622
+            ],
+            "angle": 0,
+            "content": "Comprehensive Dataset of the"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.625,
+                0.211,
+                0.636
+            ],
+            "angle": 0,
+            "content": "Aerodynamic and Geometric"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.639,
+                0.245,
+                0.65
+            ],
+            "angle": 0,
+            "content": "Coefficients of Airfoils in the Public"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.653,
+                0.242,
+                0.665
+            ],
+            "angle": 0,
+            "content": "Domain.Data 2024,9,64.https://"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.668,
+                0.214,
+                0.679
+            ],
+            "angle": 0,
+            "content": "doi.org/10.3390/data9050064"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.689,
+                0.228,
+                0.701
+            ],
+            "angle": 0,
+            "content": "Academic Editor: Rüdiger Pryss"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.711,
+                0.183,
+                0.722
+            ],
+            "angle": 0,
+            "content": "Received: 8 March 2024"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.725,
+                0.171,
+                0.736
+            ],
+            "angle": 0,
+            "content": "Revised: 5 April 2024"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.739,
+                0.184,
+                0.751
+            ],
+            "angle": 0,
+            "content": "Accepted: 27 April 2024"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.057,
+                0.754,
+                0.187,
+                0.765
+            ],
+            "angle": 0,
+            "content": "Published: 30 April 2024"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.057,
+                0.778,
+                0.155,
+                0.804
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.055,
+                0.809,
+                0.258,
+                0.92
+            ],
+            "angle": 0,
+            "content": "Copyright: © 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/)."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.62,
+                0.525,
+                0.635
+            ],
+            "angle": 0,
+            "content": "1. Introduction and Background"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.638,
+                0.942,
+                0.771
+            ],
+            "angle": 0,
+            "content": "Airfoils designed for low Reynolds numbers play crucial roles in various applications, such as in Unmanned Aerial Vehicles (UAVs), which are instrumental in executing high-definition remote sensing [1-6], infrastructure surveillance [7-9], 3D mapping [10-13] and photogrammetry tasks [14-19]. Additionally, they are vital for Small-Scale Wind Turbines (SSWTs), contributing to the reduction in electrical grid demands and greenhouse gas emissions [20-23]. To maximize the performance of these technologies, the airfoils must be specifically designed to meet their unique requirements. Techniques for optimizing airfoil design frequently include the use of genetic algorithms, surrogate modeling, and artificial neural networks [24-28]."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.772,
+                0.942,
+                0.922
+            ],
+            "angle": 0,
+            "content": "This study enhances the development of machine learning approaches for airfoil optimization by generating a dataset with lift, drag, and parameterization coefficients for 2900 airfoils at a Reynolds number of \\(10^{5}\\). A diverse dataset of airfoils was utilized during the course of this study. Airfoil profiles, including symmetric, asymmetric, cambered, and reflex profiles, were utilized to enhance the applicability of the framework developed. The lift and drag coefficients were generated using the Computational Fluid Dynamics (CFD) approach implemented in OpenFOAM v2306 [29]. It employs the Class Shape Transformation (CST) method [30] to describe the curve of each airfoil. Additionally, the CST method was applied to augment the point count in each airfoil's '.dat' file, improving the accuracy of the mesh. The dataset also incorporates these refined coordinates from"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.056,
+                0.964,
+                0.383,
+                0.978
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64. https://doi.org/10.3390/data9050064"
+        },
+        {
+            "type": "footer",
+            "bbox": [
+                0.706,
+                0.964,
+                0.941,
+                0.978
+            ],
+            "angle": 0,
+            "content": "https://www.mdpi.com/journal/data"
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.058,
+                0.152,
+                0.069
+            ],
+            "angle": 0,
+            "content": "Data 2024,9,64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.06,
+                0.943,
+                0.072
+            ],
+            "angle": 0,
+            "content": "2 of 17"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.103,
+                0.942,
+                0.133
+            ],
+            "angle": 0,
+            "content": "every '.dat' file. Finally, a baseline ML model is included to underscore the potential of our dataset."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.145,
+                0.403,
+                0.16
+            ],
+            "angle": 0,
+            "content": "2. Methodology"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.161,
+                0.405,
+                0.176
+            ],
+            "angle": 0,
+            "content": "2.1. Airfoil Profile"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.179,
+                0.945,
+                0.345
+            ],
+            "angle": 0,
+            "content": "The initial airfoil '.dat' files were obtained from the UIUC Airfoil Data Site [31] and the Airfoil Tools [32] online databases. These online repositories have a vast collection of diverse airfoil profiles ranging from the NACA 4, 5, and 6-digit airfoil series to the Eppler and the Selig series airfoils. These include symmetric, asymmetric, cambered, and reflex airfoils, which further enhance the scope of the framework developed. The '.dat' files were downloaded from the UIUC Airfoil Data Site using a Python script developed by Josh [33], and those from the Airfoil Tools site were downloaded manually. The '.dat' files thus obtained were of varying numbers of points, and hence, this was a major consideration during the automation of the Class Shape Transformation (CST) process. The study exclusively utilized '.dat' files in the Selig format. In this format, the coordinate system begins at \\((1,0)\\), advances to the leading edge, and then returns to \\((1,0)\\) via the lower surface of the airfoil."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.355,
+                0.733,
+                0.371
+            ],
+            "angle": 0,
+            "content": "2.2. Class Shape Transformation (CST) Parametrization Technique"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.374,
+                0.945,
+                0.493
+            ],
+            "angle": 0,
+            "content": "The CST (Class-Shape Transformation) or Kulfan airfoils constitute a group of airfoil profiles characterized by a parameterized representation of their upper and lower surfaces. The CST approach is a versatile parameterization strategy for crafting both two-dimensional and three-dimensional forms. Utilizing a class function alongside a shape function, the CST method encapsulates an airfoil's form, ensuring a closed trailing edge. Introduced by Kulfan [30], this parameterization technique delineates a two-dimensional figure through the integration of a class function \\( C(\\bar{x}) \\) and a shape function \\( S(\\bar{x}) \\), augmented by a component that delineates the trailing edge's thickness."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.493,
+                0.943,
+                0.613
+            ],
+            "angle": 0,
+            "content": "The construction of an airfoil via the CST method involves aggregating the contributions from its foundational function, crafted using Bernstein polynomials. For initial airfoil design and optimization, CST employing lower-order polynomials is preferred due to its minimal parameter requirement for defining specific airfoil shapes. Although intricate, CST can be adapted to a wide array of aerodynamic body shapes without necessitating a predefined geometry. This methodology offers precise control over critical features such as the leading-edge radius, boat-tail angle, and trailing-edge thickness, making it applicable in both aerodynamic studies and optimization endeavors."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.624,
+                0.453,
+                0.638
+            ],
+            "angle": 0,
+            "content": "2.2.1. CST Formulation"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.642,
+                0.943,
+                0.688
+            ],
+            "angle": 0,
+            "content": "The formulation for the Class Shape Transformation (CST) method elucidated in this section has been adapted from [30]. The general form of the mathematical expression that represents a typical airfoil geometry is as follows:"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.48,
+                0.699,
+                0.943,
+                0.735
+            ],
+            "angle": 0,
+            "content": "\\[\n\\zeta (\\psi) = \\sqrt {\\psi} (1 - \\psi) \\sum_ {i = 0} ^ {N} A _ {i} \\psi^ {i} + \\psi \\zeta_ {T} \\tag {1}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.746,
+                0.942,
+                0.821
+            ],
+            "angle": 0,
+            "content": "where \\(\\psi = x / c\\), \\(\\zeta = z / c\\) and \\(\\zeta_{T} = \\Delta Z_{TE} / c\\). The term \\(\\sqrt{\\psi}\\) corresponds to the round nose of the airfoil. Similarly, the term \\((1 - \\psi)\\) corresponds to the sharp trailing edge of the airfoil. The term \\(\\psi \\zeta_{T}\\) controls the thickness of the trailing edge, and the summation term is a general function that describes the shape of the airfoil between the round nose and the sharp trailing edge."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.309,
+                0.821,
+                0.943,
+                0.837
+            ],
+            "angle": 0,
+            "content": "Figure 1 provides a visual representation of the CST parameters [34] given by Equation (1)."
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.056,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.06,
+                0.943,
+                0.072
+            ],
+            "angle": 0,
+            "content": "3 of 17"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.28,
+                0.107,
+                0.791,
+                0.273
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.284,
+                0.457,
+                0.299
+            ],
+            "angle": 0,
+            "content": "Figure 1. CST parameters."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.307,
+                0.569,
+                0.323
+            ],
+            "angle": 0,
+            "content": "2.2.2. Airfoil Shape and Class Function"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.31,
+                0.326,
+                0.677,
+                0.341
+            ],
+            "angle": 0,
+            "content": "The shape function \\(S(\\psi)\\) is given by the relation,"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.54,
+                0.352,
+                0.943,
+                0.389
+            ],
+            "angle": 0,
+            "content": "\\[\nS (\\psi) = \\sum_ {i = 0} ^ {N} \\left[ A _ {i} \\psi^ {i} \\right] \\tag {2}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.311,
+                0.4,
+                0.754,
+                0.417
+            ],
+            "angle": 0,
+            "content": "The term \\(\\psi [1 - \\psi ]\\) defines the class function \\(C(\\psi)\\) given by,"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.514,
+                0.424,
+                0.943,
+                0.445
+            ],
+            "angle": 0,
+            "content": "\\[\nC _ {N 2} ^ {N 1} (\\psi) \\triangleq (\\psi) ^ {N 1} [ 1 - \\psi ] ^ {N 2} \\tag {3}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.454,
+                0.943,
+                0.514
+            ],
+            "angle": 0,
+            "content": "Typically, the parameters \\( N1 \\) and \\( N2 \\) are set to 0.5 and 1 for an airfoil with a rounded nose and a sharp trailing edge. The class function delineates broad categories of geometric forms, while the shape function specifies the exact contours within a particular geometric category."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.515,
+                0.943,
+                0.56
+            ],
+            "angle": 0,
+            "content": "Defining an airfoil shape function and specifying its geometry class is equivalent to defining the actual airfoil coordinates, which can then be obtained from the combination of the shape and class functions from the relation,"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.505,
+                0.569,
+                0.943,
+                0.589
+            ],
+            "angle": 0,
+            "content": "\\[\n\\zeta (\\psi) = C _ {N 2} ^ {N 1} (\\psi) S (\\psi) + \\psi \\zeta_ {T} \\tag {4}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.599,
+                0.942,
+                0.627
+            ],
+            "angle": 0,
+            "content": "The airfoil is then defined using the Bernstein polynomials, which are defined for the order \\( n \\) as follows,"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.508,
+                0.628,
+                0.943,
+                0.645
+            ],
+            "angle": 0,
+            "content": "\\[\nS _ {r, n} (x) = K _ {r, n} x ^ {r} (1 - x) ^ {n - r} \\tag {5}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.31,
+                0.651,
+                0.614,
+                0.666
+            ],
+            "angle": 0,
+            "content": "The binomial coefficients are defined as,"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.513,
+                0.676,
+                0.943,
+                0.71
+            ],
+            "angle": 0,
+            "content": "\\[\nK _ {r, n} = \\binom {n} {r} = \\frac {n !}{r ! (n - r) !} \\tag {6}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.718,
+                0.945,
+                0.793
+            ],
+            "angle": 0,
+            "content": "The first term of the polynomial defines the leading-edge radius, and the last term is the boat-tail angle. The terms that fall in between serve as the \"shaping terms\". Here, a Bernstein polynomial of the eighth order is employed, resulting in eight weighted coefficients upon completion of the CST process. The upper surface of the airfoil is defined by the equations,"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.475,
+                0.792,
+                0.943,
+                0.811
+            ],
+            "angle": 0,
+            "content": "\\[\n\\left(\\zeta\\right) _ {u p p e r} = C _ {N 2} ^ {N 1} (\\psi) S l (\\psi) + \\psi \\Delta \\xi_ {u p p e r} \\tag {7}\n\\]"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.525,
+                0.815,
+                0.943,
+                0.853
+            ],
+            "angle": 0,
+            "content": "\\[\nS u (\\psi) = \\sum_ {i = 1} ^ {N} A u _ {i} S _ {i} (\\psi) \\tag {8}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.311,
+                0.858,
+                0.752,
+                0.873
+            ],
+            "angle": 0,
+            "content": "The lower surface of the airfoil is defined by the equations,"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.477,
+                0.883,
+                0.943,
+                0.902
+            ],
+            "angle": 0,
+            "content": "\\[\n(\\zeta) _ {l o w e r} = C _ {N 2} ^ {N 1} (\\psi) S l (\\psi) + \\psi \\Delta \\xi_ {l o w e r} \\tag {9}\n\\]"
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.056,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.06,
+                0.943,
+                0.073
+            ],
+            "angle": 0,
+            "content": "4 of 17"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.529,
+                0.102,
+                0.943,
+                0.139
+            ],
+            "angle": 0,
+            "content": "\\[\nS l (\\psi) = \\sum_ {i = 1} ^ {N} A l _ {i} S _ {i} (\\psi) \\tag {10}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.144,
+                0.332,
+                0.157
+            ],
+            "angle": 0,
+            "content": "where,"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.496,
+                0.156,
+                0.943,
+                0.185
+            ],
+            "angle": 0,
+            "content": "\\[\n\\Delta \\xi_ {U} = \\frac {z u _ {T E}}{C} \\text {a n d} \\Delta \\xi_ {L} = \\frac {z l _ {T E}}{C} \\tag {11}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.188,
+                0.942,
+                0.22
+            ],
+            "angle": 0,
+            "content": "The selection of an eighth-order Bernstein polynomial was justified by its drag predictions and pressure distribution, which perfectly matched experimental observations [30]."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.23,
+                0.457,
+                0.245
+            ],
+            "angle": 0,
+            "content": "2.2.3. Key Observations"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.248,
+                0.946,
+                0.444
+            ],
+            "angle": 0,
+            "content": "Throughout the process of airfoil parameterization, several key findings emerged that deserve attention. Notably, when the leading edge point deviated from the origin (0,0) with a y-offset, the airfoils generated through the CST method exhibited a marked increase in error percentage. This deviation significantly altered the airfoil's curvature, rendering it beyond the capture capability of the 'blockMesh' utility. Additionally, a significant portion of the airfoils had their trailing edges positioned away from (1,0), challenging the meshing process, which necessitates a trailing edge at (1,0). Consequently, airfoils not meeting this criterion were excluded from the preliminary airfoil database. The comparison between the original and the derived airfoils showed only a minimal error margin (less than \\(5\\%\\) margin of error). This is elucidated in Figure 2. The original airfoil is given by the blue line, and the dashed line represents the airfoil profile generated using the CST framework. This approach was developed utilizing MATLAB® R2022b building on the work of Pramudita Satria Palar [35]."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.28,
+                0.456,
+                0.599,
+                0.558
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.375,
+                0.569,
+                0.507,
+                0.584
+            ],
+            "angle": 0,
+            "content": "(a) GOE 590 Airfoil"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.614,
+                0.456,
+                0.929,
+                0.557
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.717,
+                0.569,
+                0.829,
+                0.584
+            ],
+            "angle": 0,
+            "content": "(b) S1223 Airfoil"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.28,
+                0.605,
+                0.597,
+                0.707
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.368,
+                0.72,
+                0.511,
+                0.734
+            ],
+            "angle": 0,
+            "content": "(c) Eppler 377 Airfoil"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.618,
+                0.606,
+                0.931,
+                0.708
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.715,
+                0.72,
+                0.84,
+                0.734
+            ],
+            "angle": 0,
+            "content": "(d) Clark K Airfoil"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.735,
+                0.612,
+                0.75
+            ],
+            "angle": 0,
+            "content": "Figure 2. Generation of airfoil sections using CST."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.768,
+                0.457,
+                0.783
+            ],
+            "angle": 0,
+            "content": "2.2.4. Shape Generation"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.787,
+                0.941,
+                0.816
+            ],
+            "angle": 0,
+            "content": "Figure 2 illustrates several different airfoil sections created using the CST framework developed."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.817,
+                0.942,
+                0.849
+            ],
+            "angle": 0,
+            "content": "It is observed that the CST framework can capture diverse airfoil sections of varying thicknesses and curvatures accurately."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.858,
+                0.379,
+                0.874
+            ],
+            "angle": 0,
+            "content": "2.3. Geometry"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.876,
+                0.945,
+                0.924
+            ],
+            "angle": 0,
+            "content": "The CST framework was used to create airfoils that were \\(1\\mathrm{m}\\) in length. It generates the '.dat' file containing a specified number of points distributed evenly. Generating the '.dat' file with more points to increase the number of coordinates representing the airfoil surfaces"
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.06,
+                0.943,
+                0.072
+            ],
+            "angle": 0,
+            "content": "5 of 17"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.103,
+                0.941,
+                0.177
+            ],
+            "angle": 0,
+            "content": "both enhances the smoothness of the airfoil geometry and leads to more precise simulations by better representing the airfoil's shape. Eventually, it was inferred that beyond 600 points, the number of airfoil coordinates in the '.dat' file no longer influenced the airfoil CFD lift/drag outcomes. Therefore, '.dat' files with 600 points were established as the standard for subsequent simulations."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.179,
+                0.945,
+                0.329
+            ],
+            "angle": 0,
+            "content": "The computational domain was designed with a C-type layout, maintaining an 11 chord length distance on average from the far field. The curved surface and both the top and bottom surfaces were assigned the role of flow inlet boundary, whereas the outlet condition was applied to the right-side wall. The domain is divided into seven blocks, as shown in Figure 3, with blocks 0, 1, and 2 serving as reflections of blocks 6, 5, and 4, respectively, across the chord line of the airfoil. The airfoil coordinates were interconnected using the OpenFOAM 'PolyLine' segments. However, as the 'Polyline' edges were not effectively capturing the airfoil's leading edge curvature, an additional block (block 3) was formed where the airfoil coordinates were connected through the OpenFOAM 'Spline' curve segments."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.276,
+                0.34,
+                0.758,
+                0.543
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.55,
+                0.505,
+                0.565
+            ],
+            "angle": 0,
+            "content": "Figure 3. Computational domain."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.573,
+                0.475,
+                0.589
+            ],
+            "angle": 0,
+            "content": "2.4. Mesh Setup and Details"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.592,
+                0.941,
+                0.695
+            ],
+            "angle": 0,
+            "content": "This study utilized the OpenFOAM 'blockMesh' mesh generation utility. Initially, a study on mesh independence was conducted to assess the impact of the quantity and dimensions of mesh cells on the outcome of the simulation. It was observed that an increase in the number of cells typically enhances the accuracy of the simulation, albeit at the cost of increased computational time and resources. This study of grid independence involved a comparison of the lift coefficient for the symmetric NACA 0018 airfoil at a \\(4^{\\circ}\\) angle of attack."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.697,
+                0.942,
+                0.741
+            ],
+            "angle": 0,
+            "content": "Figure 4 demonstrated that a grid with 198,000 cells is adequate for achieving a solution that is independent of grid size. This grid comprised 198,000 structured hexahedral cells, segmented into a far-field zone and a more detailed near-field region as shown in Figure 5."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.742,
+                0.942,
+                0.817
+            ],
+            "angle": 0,
+            "content": "Multi-grading techniques were employed to modulate the cell expansion ratios within the blocks and enhance the refinement of the boundary layer adjacent to the airfoil wall. Furthermore, the aspect ratio of cells near the airfoil was meticulously managed to ensure they remained within acceptable ranges, given that cells with high aspect ratios, particularly in areas sensitive to flow, can sometimes compromise the reliability of the findings."
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.06,
+                0.943,
+                0.072
+            ],
+            "angle": 0,
+            "content": "6 of 17"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.279,
+                0.104,
+                0.655,
+                0.315
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.685,
+                0.153,
+                0.911,
+                0.264
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Number of Cells</td><td>Cl</td></tr><tr><td>24,000</td><td>0.33950</td></tr><tr><td>51,000</td><td>0.34120</td></tr><tr><td>100,000</td><td>0.34390</td></tr><tr><td>197,750</td><td>0.35197</td></tr><tr><td>339,000</td><td>0.35198</td></tr></table>"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.32,
+                0.612,
+                0.336
+            ],
+            "angle": 0,
+            "content": "Figure 4. Results of the grid independence study."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.31,
+                0.344,
+                0.485,
+                0.469
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.476,
+                0.52,
+                0.49
+            ],
+            "angle": 0,
+            "content": "(a) Mesh around NACA 0018 airfoil"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.492,
+                0.44,
+                0.506
+            ],
+            "angle": 0,
+            "content": "Figure 5. Mesh Domain"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.66,
+                0.351,
+                0.928,
+                0.472
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.699,
+                0.476,
+                0.887,
+                0.492
+            ],
+            "angle": 0,
+            "content": "(b) Near-field Mesh Region"
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.515,
+                0.555,
+                0.53
+            ],
+            "angle": 0,
+            "content": "2.5. Solver Setup and Turbulence Model"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.534,
+                0.946,
+                0.623
+            ],
+            "angle": 0,
+            "content": "The simulations were run using the steady-state Reynolds-Averaged Navier-Stokes (RANS) OpenFOAM 'simpleFOAM' solver along with the viscous Spalart-Allmaras turbulence model. SimpleFOAM is a pressure-based solver (for low-speed incompressible flows) that incorporates the SIMPLE (Semi-implicit Method for pressure-linked equations) algorithm. This solver is generally preferred to other pressure-based OpenFOAM solvers (such as PisoFoam or PimpleFoam) for largely incompressible and turbulent flows around airfoils."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.623,
+                0.946,
+                0.907
+            ],
+            "angle": 0,
+            "content": "The validity of numerical results greatly depends on the nature of the turbulence model utilized to predict real-world flow conditions. For flow over an airfoil, laminar flow eventually transitions to turbulent flow at the transition point (generally at \\(30\\%\\) of the airfoil chord). However, during turbulence modeling, any of the selected turbulence models, which will have to capture the overall flow phenomena over the airfoil, will not account for the small laminar portion of the flow, and will rather assume fully turbulent flow, which can produce certain inherent biases in the generated data set, especially for the drag outcomes. Considering all of these, for the given flow conditions (incompressible, low-speed, low-Reynolds number) and the nature of simulations (external airfoil 2D flow), the Spalart-Allmaras (SA) single-equation model was deemed to be the most appropriate amongst the other turbulence models. In order to verify the fidelity of the results, apart from validation with published experimental data of other investigators, which the SA model had good agreement with over a wide range of angles of attack, parameters such as the \\(y^{+}\\) were considered. The \\(y^{+}\\) is a non-dimensional distance used to determine the proper size of the cells near domain walls during turbulence modeling. Given that the average \\(y^{+}\\) during most of our simulations was approximately 0.13, the Spalart-Allmaras model appears more than adequate for generating reliable high-fidelity data. The only limitation associated with the SA model is its inability to accurately predict drag outcomes in highly separated flow regions, such as at high angles of attack."
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.056,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.06,
+                0.943,
+                0.072
+            ],
+            "angle": 0,
+            "content": "7 of 17"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.103,
+                0.946,
+                0.223
+            ],
+            "angle": 0,
+            "content": "The Spalart-Allmaras model is a single-equation turbulence model, solving for the modified turbulent kinematic viscosity. It is widely used in various aerospace applications and is designed for low-velocity wall-bounding flows with boundary layers subject to adverse pressure gradients [36] like in airfoils. It is commonly used for low-Reynolds number flows and is more straightforward to implement, unlike other turbulence models such as the k-ε or the k-ω models, which require the turbulent length scale to be calculated. The Spalart-Allmaras transport equation [37], solving for the turbulent kinematic viscosity, \\(\\tilde{v}\\), is given below:"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.306,
+                0.223,
+                0.943,
+                0.265
+            ],
+            "angle": 0,
+            "content": "\\[\n\\frac {\\partial}{\\partial t} (\\rho \\widetilde {v}) + \\frac {\\partial}{\\partial x _ {i}} (\\rho \\widetilde {v} \\mu_ {i}) = \\frac {1}{\\sigma_ {\\widetilde {v}}} \\left(\\frac {\\partial}{\\partial x _ {j}} \\left[ (\\mu + \\rho \\widetilde {v}) \\frac {\\partial \\widetilde {v}}{\\partial x _ {j}} \\right] + C _ {b 2} \\rho \\left(\\frac {\\partial \\widetilde {v}}{\\partial x _ {j}}\\right) ^ {2}\\right) + G _ {\\widetilde {v}} - Y _ {\\widetilde {v}} + S _ {\\widetilde {v}} \\tag {12}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.273,
+                0.946,
+                0.32
+            ],
+            "angle": 0,
+            "content": "where \\(\\rho\\) is the density, \\(\\nu\\) is the molecular kinematic viscosity and \\(\\mu\\) is the dynamic viscosity. The four terms on the right of Equation (12) represent the diffusion, transition, dissipation, and production terms, respectively. The turbulent viscosity, \\(\\mu_{t}\\) can be determined through:"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.566,
+                0.331,
+                0.943,
+                0.348
+            ],
+            "angle": 0,
+            "content": "\\[\n\\mu_ {t} = \\rho \\widetilde {v} f _ {v 1} \\tag {13}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.31,
+                0.358,
+                0.765,
+                0.374
+            ],
+            "angle": 0,
+            "content": "Subsequently, the viscous damping function, \\( f_{\\nu 1} \\) is given by:"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.546,
+                0.383,
+                0.943,
+                0.419
+            ],
+            "angle": 0,
+            "content": "\\[\nf _ {v 1} = \\frac {X ^ {3}}{X ^ {3} + C _ {v 1} ^ {3}} \\tag {14}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.311,
+                0.423,
+                0.94,
+                0.438
+            ],
+            "angle": 0,
+            "content": "X represents the ratio of the turbulent kinematic viscosity to the kinematic viscosity:"
+        },
+        {
+            "type": "equation",
+            "bbox": [
+                0.58,
+                0.448,
+                0.943,
+                0.477
+            ],
+            "angle": 0,
+            "content": "\\[\nX = \\frac {\\widetilde {v}}{v} \\tag {15}\n\\]"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.481,
+                0.946,
+                0.525
+            ],
+            "angle": 0,
+            "content": "The empirical constants for the Spalart-Allmaras model are given by: \\(\\sigma = 2/3\\), \\(\\kappa = 0.41\\), \\(c_{b1} = 0.1355\\), \\(c_{b2} = 0.622\\), \\(c_{w1} = 3.239\\), \\(c_{w2} = 0.3\\), \\(c_{w3} = 2\\), \\(c_{v1} = 7.1\\), \\(c_{t3} = 1.2\\), \\(c_{t4} = 0.5\\)."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.526,
+                0.943,
+                0.587
+            ],
+            "angle": 0,
+            "content": "The kinematic viscosity \\((\\nu)\\) for the domain is set to be \\(1.48\\times 10^{-5}\\mathrm{m}^2 /\\mathrm{s}\\) which is the kinematic viscosity of air at \\(15^{\\circ}\\mathrm{C}\\). For the Spalart-Allmaras model, the turbulent viscosity \\((\\mu_t)\\) is initialized to be equal to the kinematic viscosity in the internal field of the domain, while the turbulent kinematic viscosity \\((\\tilde{v})\\) is initialized to be equal to \\(4\\nu\\) \\((X = 4)\\)."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.597,
+                0.395,
+                0.611
+            ],
+            "angle": 0,
+            "content": "2.6. Automation"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.616,
+                0.943,
+                0.662
+            ],
+            "angle": 0,
+            "content": "Automating the dataset creation process was a key component of the research. This was achieved through a comprehensive strategy. The software tools utilized for automation, listed in the order of their application, are illustrated in Figure 6."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.277,
+                0.671,
+                0.94,
+                0.7
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.706,
+                0.62,
+                0.721
+            ],
+            "angle": 0,
+            "content": "Figure 6. Software used in the automation process."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.731,
+                0.942,
+                0.808
+            ],
+            "angle": 0,
+            "content": "The CST framework was constructed using MATLAB®. Python played a key role in the automation of mesh creation. The execution of CFD simulations was streamlined through the use of Bash scripts. Additionally, Python was employed for the analysis and postprocessing of the results of the CFD simulation. Figure 7 illustrates the step-by-step approach adopted to generate the dataset elucidated in the present work."
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.06,
+                0.943,
+                0.072
+            ],
+            "angle": 0,
+            "content": "8 of 17"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.276,
+                0.1,
+                0.823,
+                0.54
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.545,
+                0.591,
+                0.56
+            ],
+            "angle": 0,
+            "content": "Figure 7. Framework of automation approach."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.567,
+                0.607,
+                0.584
+            ],
+            "angle": 0,
+            "content": "2.6.1. Automation of CST Using MATLAB®"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.586,
+                0.946,
+                0.766
+            ],
+            "angle": 0,
+            "content": "The automation of generating the CST coefficients and the creation of 600-point '.dat' files was facilitated through MATLAB®. The airfoil '.dat' file obtained from the online airfoil repositories was initially imported into MATLAB®. Following this, the Selig format '.dat' files were split into the coordinates of the upper and lower surfaces of the airfoil. The CST method using the shape and class functions was run individually on both the upper and lower surfaces. Thus, the CST coefficients of the airfoil were obtained. In order to increase the number of points in the '.dat' file to 600 points, the obtained coefficients were substituted in an eighth-order Bernstein polynomial. Regardless of the number of points in the initial '.dat' file, the CST framework generated the CST coefficients and a '.dat' file with 600 points. The number of points in the '.dat' file was standardized to be 600 (Section 2.3), which was crucial to the subsequent meshing process. This is elucidated visually in Figure 8."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.276,
+                0.774,
+                0.917,
+                0.827
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.832,
+                0.581,
+                0.848
+            ],
+            "angle": 0,
+            "content": "Figure 8. CST automation using MATLAB®."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.856,
+                0.455,
+                0.87
+            ],
+            "angle": 0,
+            "content": "2.6.2. Mesh Generation"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.875,
+                0.945,
+                0.92
+            ],
+            "angle": 0,
+            "content": "Initially, a BlockMeshDict file conforming to a standard was developed to streamline the meshing process for airfoils. Following this, a Python script was crafted to retrieve coordinates from a 600-point airfoil '.dat' file and methodically replace them line by line in"
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.898,
+                0.06,
+                0.943,
+                0.072
+            ],
+            "angle": 0,
+            "content": "9 of 17"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.103,
+                0.942,
+                0.135
+            ],
+            "angle": 0,
+            "content": "the specified lines of the BlockMeshDict file. This approach enabled the efficient meshing of any Selig format '.dat' file with 600 points."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.145,
+                0.414,
+                0.16
+            ],
+            "angle": 0,
+            "content": "2.7. Bash Scripting"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.163,
+                0.942,
+                0.224
+            ],
+            "angle": 0,
+            "content": "Bash scripts were pivotal in the research process, being utilized across various phases of the simulation, from initiating the case setup to managing the postprocessing of the gathered results. Furthermore, they played a significant role in parallelizing the CFD simulations and controlling the numerous concurrent simulations."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.235,
+                0.455,
+                0.248
+            ],
+            "angle": 0,
+            "content": "2.7.1. CFD Automation"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.253,
+                0.945,
+                0.476
+            ],
+            "angle": 0,
+            "content": "The convergence of CFD simulations is often determined by the property residuals, which represent the local imbalance of that conserved scalar within the control volume. In most CFD simulations, property residuals of the order of around \\(10^{-5}\\) are considered to be well converged, while residuals around \\(10^{-6}\\) are considered tightly converged (no further variation in the value of the property with further iterations). Tests across multiple airfoil shapes and angles of attack indicated that 2000 iterations consistently produced residuals of the order less than \\(10^{-5}\\) across all properties, including \\(U_{x}\\) (x-direction fluid velocity), P (local pressure) and the turbulence parameters. The \\(U_{x}\\) and \\(U_{y}\\) initial residuals plot for the simulation of NACA 0018 at \\(0^{\\circ}\\) is shown in Figure 9. It can be inferred that beyond 1500 iterations, there is no substantial change in the residuals (almost a near-converged solution). Moreover, beyond 2000 iterations, the lift and drag coefficients only varied in the 4th and 6th decimal places, respectively, which have negligible contributions to the measured parameters. Furthermore, increasing the iteration count would significantly raise computational time and resources. Therefore, in the process of automating the simulations, the iteration limit for each airfoil was set to 2000."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.278,
+                0.487,
+                0.827,
+                0.753
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.274,
+                0.763,
+                0.585,
+                0.779
+            ],
+            "angle": 0,
+            "content": "Figure 9. Residuals plot for NACA 0018 at \\(0^{\\circ}\\)."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.787,
+                0.433,
+                0.801
+            ],
+            "angle": 0,
+            "content": "2.7.2. Parallelization"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.805,
+                0.945,
+                0.911
+            ],
+            "angle": 0,
+            "content": "Throughout the study, OpenFOAM v2306 was the designated software version in use. The primary tool for simulation, the simpleFOAM solver, is a CPU-based solver. Initial simulations were conducted on a laptop (on Ubuntu 23.10) equipped with a Ryzen 7 5800H CPU and 32 GB of RAM, featuring eight cores and 16 threads. Running a simulation on a single thread took about \\(15\\mathrm{min}\\), indicating that completing simulations for all the airfoils at a single angle of attack (AoA) would require approximately 31 days. This would translate into 403 days for 13 angles of attack. Due to the sheer amount of time it would take to"
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.891,
+                0.06,
+                0.943,
+                0.073
+            ],
+            "angle": 0,
+            "content": "10 of 17"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.103,
+                0.941,
+                0.133
+            ],
+            "angle": 0,
+            "content": "run simulations for 2900 airfoils at a single AoA, it was then decided to parallelize the simulation process."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.133,
+                0.942,
+                0.237
+            ],
+            "angle": 0,
+            "content": "Initially, parallel simulations were executed on the mentioned laptop before transferring the cases to a supercomputer powered by an AMD Epyc 32-core CPU with 110 GB of RAM. The airfoil database was divided into parts, allowing for simultaneous runs of one case per sub-database. This setup ensured that several simulations were operational concurrently. The optimal number of simultaneous simulations was determined through experimentation, considering both the supercomputer's performance and the cumulative simulation time for one AoA."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.238,
+                0.942,
+                0.299
+            ],
+            "angle": 0,
+            "content": "After fine-tuning the parallelization strategy, the ultimate simulations were carried out on four Intel Xeon Platinum Cascadelake 8268 processors, boasting a total of 96 cores and 1536 GB of RAM. The database was segmented into 96 parts, leading to a final simulation time of approximately two days for one AoA."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.309,
+                0.442,
+                0.325
+            ],
+            "angle": 0,
+            "content": "2.7.3. Post-Processing"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.327,
+                0.942,
+                0.39
+            ],
+            "angle": 0,
+            "content": "A Python script was created to save the simulation outcomes (\\( C_l \\) and \\( C_d \\)), the Angle of Attack (AoA), and the CST coefficients in a CSV (Comma Separated Values) file. The format of the CSV file is given in the following section. This approach was implemented to streamline the data consolidation process and facilitate subsequent data analysis."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.399,
+                0.43,
+                0.414
+            ],
+            "angle": 0,
+            "content": "3. Data Description"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.417,
+                0.945,
+                0.538
+            ],
+            "angle": 0,
+            "content": "The dataset was stored on a GitHub repository. The data structure of the repository is shown in Figure 10. The repository is primarily divided into six parts. These correspond to the raw and processed airfoil data, the CFD and CST subdirectories, the final dataset, and the baseline model. The CFD subdirectory contains the OpenFOAM case setup and its associated directories. Similarly, the CST subdirectory contains the CST framework. Furthermore, separate directories have been created for the raw and processed airfoil databases. Additionally, the baseline model subdirectory was created for the baseline model developed for the current study."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.279,
+                0.555,
+                0.606,
+                0.85
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.858,
+                0.651,
+                0.874
+            ],
+            "angle": 0,
+            "content": "Figure 10. The data structure of the GitHub Repository."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.884,
+                0.942,
+                0.915
+            ],
+            "angle": 0,
+            "content": "The outcome of this study, the final dataset, is provided in the following format represented in Table 1."
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.891,
+                0.06,
+                0.943,
+                0.073
+            ],
+            "angle": 0,
+            "content": "11 of 17"
+        },
+        {
+            "type": "table_caption",
+            "bbox": [
+                0.275,
+                0.103,
+                0.443,
+                0.117
+            ],
+            "angle": 0,
+            "content": "Table 1. Dataset format."
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.276,
+                0.124,
+                0.942,
+                0.159
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Airfoil \nFilename</td><td>AoA (α)</td><td>X1</td><td>X2</td><td>X3</td><td>X4</td><td>X5</td><td>X6</td><td>X7</td><td>X8</td><td>C1</td><td>Cd</td></tr></table>"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.17,
+                0.943,
+                0.203
+            ],
+            "angle": 0,
+            "content": "Here, AoA refers to the angle of attack, \\( X_{i} \\) the CST coefficients, and \\( C_{l}, C_{d} \\) are the lift and drag coefficients, respectively."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.274,
+                0.212,
+                0.421,
+                0.226
+            ],
+            "angle": 0,
+            "content": "4. Data Validation"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.23,
+                0.945,
+                0.349
+            ],
+            "angle": 0,
+            "content": "The validation of lift and drag coefficients for selected symmetric and cambered airfoils was achieved by comparing the simulation results with experimental data cited from two distinct sources, focusing on a Reynolds number approximating 100,000. This process aimed to affirm the precision of both the outcomes and the simulation methodology itself, involving a comparison across various airfoil types. However, due to space limitations, only a select number of relevant illustrations are included. The validation for NACA airfoils utilized findings from the NACA report [38], whereas validations for other non-NACA airfoils drew upon data from the data library [39]."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.35,
+                0.943,
+                0.41
+            ],
+            "angle": 0,
+            "content": "The comparison includes numerically derived and experimentally measured lift and drag coefficients for a symmetric airfoil, specifically the NACA 0018 at a Reynolds number of 84,000, and a cambered airfoil, the NACA 2412, at a Reynolds number of 82,800. For each airfoil, these comparisons are depicted in the designated Figures 11 and 12."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.279,
+                0.415,
+                0.592,
+                0.594
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.359,
+                0.603,
+                0.515,
+                0.617
+            ],
+            "angle": 0,
+            "content": "(a) Lift Coefficient \\((C_l)\\)"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.622,
+                0.415,
+                0.935,
+                0.593
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.696,
+                0.603,
+                0.864,
+                0.617
+            ],
+            "angle": 0,
+            "content": "(b) Drag Coefficient \\((C_d)\\)"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.274,
+                0.618,
+                0.745,
+                0.634
+            ],
+            "angle": 0,
+            "content": "Figure 11. Aerodynamic characteristics of NACA 0018 at \\(\\mathrm{Re} = 84,000\\)."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.279,
+                0.643,
+                0.593,
+                0.824
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.361,
+                0.832,
+                0.513,
+                0.846
+            ],
+            "angle": 0,
+            "content": "(a) Lift Coefficient \\((C_l)\\)"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.624,
+                0.643,
+                0.935,
+                0.822
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.697,
+                0.832,
+                0.863,
+                0.846
+            ],
+            "angle": 0,
+            "content": "(b) Drag Coefficient \\((C_d)\\)"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.274,
+                0.847,
+                0.744,
+                0.862
+            ],
+            "angle": 0,
+            "content": "Figure 12. Aerodynamic characteristics of NACA 2412 at \\(\\mathrm{Re} = 82,800\\)"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.872,
+                0.943,
+                0.919
+            ],
+            "angle": 0,
+            "content": "The OpenFOAM model accurately predicts values within the selected range of angles of attack, paralleling experimental findings. The deviations for both lift and drag coefficients for the symmetric NACA 0018 airfoil fall below a \\(5\\%\\) margin, indicating high precision"
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.891,
+                0.06,
+                0.943,
+                0.073
+            ],
+            "angle": 0,
+            "content": "12 of 17"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.103,
+                0.941,
+                0.192
+            ],
+            "angle": 0,
+            "content": "in the results. Similarly, lift coefficient estimates for the cambered NACA 2412 airfoil align closely with experimental data, remaining within a \\(5\\%\\) error margin. However, the model tends to underestimate the drag coefficients for the NACA 2412, showing a discrepancy of about \\(15\\%\\) at certain angles of attack. This pattern is consistent across other tested airfoils, where lift coefficients are accurately predicted while drag coefficients are slightly underestimated."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.193,
+                0.942,
+                0.268
+            ],
+            "angle": 0,
+            "content": "For the NACA 4415 and NACA 6412 airfoils at Reynolds numbers of 82,500 and 83,000, respectively, the results shown in Figures 13 and 14 showcase that while lift coefficient \\((C_l)\\) values are within a \\(5\\%\\) error margin, the gap between predicted and experimental drag coefficient \\((C_d)\\) values widens beyond \\(10\\%\\) at both high and notably negative angles of attack."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.279,
+                0.275,
+                0.592,
+                0.453
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.361,
+                0.463,
+                0.513,
+                0.477
+            ],
+            "angle": 0,
+            "content": "(a) Lift Coefficient \\((C_l)\\)"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.624,
+                0.275,
+                0.935,
+                0.453
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.697,
+                0.463,
+                0.863,
+                0.477
+            ],
+            "angle": 0,
+            "content": "(b) Drag Coefficient \\((C_d)\\)"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.478,
+                0.741,
+                0.492
+            ],
+            "angle": 0,
+            "content": "Figure 13. Aerodynamic characteristics of NACA 4415 at \\(\\mathrm{Re} = 82,500\\)"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.279,
+                0.503,
+                0.592,
+                0.682
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.361,
+                0.691,
+                0.513,
+                0.705
+            ],
+            "angle": 0,
+            "content": "(a) Lift Coefficient \\((C_l)\\)"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.625,
+                0.503,
+                0.934,
+                0.682
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.697,
+                0.691,
+                0.863,
+                0.705
+            ],
+            "angle": 0,
+            "content": "(b) Drag Coefficient \\((C_d)\\)"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.274,
+                0.707,
+                0.741,
+                0.721
+            ],
+            "angle": 0,
+            "content": "Figure 14. Aerodynamic characteristics of NACA 6412 at \\(\\mathrm{Re} = 83,000\\)."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.731,
+                0.941,
+                0.792
+            ],
+            "angle": 0,
+            "content": "Validation is also carried out for non-NACA airfoils. The results obtained for the Selig/Donnovan SD8020 airfoil at a Reynolds number of 101,800 is shown in Figure 15. The expected results are obtained; the error in the lift is less than \\(4\\%\\) while the error in the drag coefficient remains less than \\(10\\%\\) apart from at highly negative angles of attack."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.792,
+                0.942,
+                0.835
+            ],
+            "angle": 0,
+            "content": "One interesting inference that was derived from the validation study was that symmetric airfoil simulations produced more accurate drag results at higher angles of attack than cambered airfoils."
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.892,
+                0.06,
+                0.941,
+                0.072
+            ],
+            "angle": 0,
+            "content": "13 of 17"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.279,
+                0.103,
+                0.594,
+                0.282
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.361,
+                0.291,
+                0.513,
+                0.305
+            ],
+            "angle": 0,
+            "content": "(a) Lift Coefficient \\((C_l)\\)"
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.624,
+                0.102,
+                0.936,
+                0.282
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.697,
+                0.291,
+                0.863,
+                0.305
+            ],
+            "angle": 0,
+            "content": "(b) Drag Coefficient \\((C_d)\\)"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.306,
+                0.723,
+                0.32
+            ],
+            "angle": 0,
+            "content": "Figure 15. Aerodynamic characteristics of SD 8020 at \\(\\mathrm{Re} = 101,800\\)."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.332,
+                0.946,
+                0.466
+            ],
+            "angle": 0,
+            "content": "Predicting the aerodynamic performance, particularly drag, in scenarios of high flow separation or at significant angles of attack poses a challenge for numerical methods [40]. As the angle of attack reaches its limits, leading to detached flows, simulation results tend to deviate from those reported in the literature. This deviation is challenging to address without resorting to unsteady Reynolds-Averaged Navier-Stokes (RANS) or Large Eddy Simulation (LES) techniques and the use of highly detailed meshes [41]. Previous studies, including this one, have noted inconsistencies in the numerical versus experimental lift \\((C_l)\\) and drag \\((C_d)\\) coefficients across angles of attack (AoA) when employing the Spalart-Allmaras model [42]."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.466,
+                0.945,
+                0.599
+            ],
+            "angle": 0,
+            "content": "In any design process, CFD simulations are often conducted in the detailed final stages due to the amount of computational resources and time required to carry out the simulations. However, given that the dataset already consists of the required airfoil aerodynamic parameters, the data can be used in the initial stages of the design process. In the preliminary stages, the slight discrepancy in the drag coefficients at high angles of attack will not cause significant issues and will be more than adequate for initial estimates. This represents an alternative application for the generated dataset and serves as a much more comprehensive and accurate substitute instead of depending on crude panel solvers for initial estimates."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.6,
+                0.945,
+                0.734
+            ],
+            "angle": 0,
+            "content": "Furthermore, as highlighted in the introduction, at low-Reynolds numbers, the proposed dataset will find significant use while designing Unmanned Aerial Vehicles (UAVs). In order to remain within their limits of safe operation, these UAVs only fly at moderate Angles of attack, rarely exceeding \\(7^{\\circ} - 8^{\\circ}\\), within which the aerodynamic predictions and results remain reasonably accurate. Moreover, beyond the selected range of angles of attack, extreme flow separation will initiate airfoil stalling characteristics. Given the diversity of airfoil shapes present in the dataset, the absolute stall angles will also vary considerably for each airfoil, and hence be extremely difficult to predict and standardize. This is another reason why a moderate angle of attack range (from \\(-4^{\\circ}\\) to \\(8^{\\circ}\\)) was selected."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.735,
+                0.942,
+                0.809
+            ],
+            "angle": 0,
+            "content": "Overall, despite occasionally underestimating drag forces, the OpenFOAM numerical results provide adequate lift and drag estimations for the angles of attack required by our study, which do not involve predominant flow separation. Additionally, the high level of accuracy observed in simulations across various references [38,39] further confirms the feasibility and effectiveness of the automated simulation processes."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.821,
+                0.564,
+                0.835
+            ],
+            "angle": 0,
+            "content": "5. Baseline Machine Learning Model"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.839,
+                0.945,
+                0.9
+            ],
+            "angle": 0,
+            "content": "To demonstrate the potential of our dataset in machine learning-based airfoil optimization approaches, we implemented a feed-forward neural network architecture. This network consists of two layers, with 12 and six neurons, respectively. Batch Normalization and ReLU activation functions were applied after each layer. The network was trained to"
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.057,
+                0.154,
+                0.07
+            ],
+            "angle": 0,
+            "content": "Data 2024, 9, 64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.891,
+                0.06,
+                0.943,
+                0.072
+            ],
+            "angle": 0,
+            "content": "14 of 17"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.103,
+                0.942,
+                0.134
+            ],
+            "angle": 0,
+            "content": "predict the lift and drag coefficients of an airfoil based on its eight CST coefficients and an angle of attack as input. The neural network's architecture is given in Figure 16."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.278,
+                0.143,
+                0.891,
+                0.375
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.381,
+                0.6,
+                0.396
+            ],
+            "angle": 0,
+            "content": "Figure 16. Baseline neural network architecture."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.407,
+                0.942,
+                0.468
+            ],
+            "angle": 0,
+            "content": "To handle outliers and ensure robustness, we employed the Huber loss function, which dynamically adjusts between Mean Squared Error and Mean Absolute Error based on a threshold. The loss was minimized using the Adam [43] optimizer over 15 epochs, as depicted by the loss curve in Figure 17."
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.282,
+                0.48,
+                0.823,
+                0.746
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.275,
+                0.755,
+                0.612,
+                0.77
+            ],
+            "angle": 0,
+            "content": "Figure 17. Loss curve for baseline model training."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.78,
+                0.942,
+                0.827
+            ],
+            "angle": 0,
+            "content": "By coupling our model with a design optimizer, we streamline the airfoil optimization process, significantly reducing computational time compared to the conventional method of employing a design optimizer with a traditional CFD solver."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.275,
+                0.837,
+                0.395,
+                0.851
+            ],
+            "angle": 0,
+            "content": "6. Conclusions"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.855,
+                0.945,
+                0.916
+            ],
+            "angle": 0,
+            "content": "This paper introduces a dataset featuring airfoil aerodynamic coefficients and CST parameters of airfoils obtained from reputable online repositories (the UIUC Airfoil Database and Airfoil Tools). Focused on low Reynolds numbers (100,000), it serves as a proof of concept of a robust and automated framework for CFD analyses. The release of the CFD"
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.058,
+                0.152,
+                0.069
+            ],
+            "angle": 0,
+            "content": "Data 2024,9,64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.891,
+                0.06,
+                0.942,
+                0.072
+            ],
+            "angle": 0,
+            "content": "15 of 17"
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.103,
+                0.946,
+                0.179
+            ],
+            "angle": 0,
+            "content": "framework and dataset sets the stage for future research, including the expansion to higher Reynolds numbers and the training of several AI models for low Reynolds number aerodynamic analyses. This is reinforced by the implementation of a baseline ML model using the generated dataset. This dataset could serve as a valuable resource for researchers and engineers in various fields."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.191,
+                0.947,
+                0.263
+            ],
+            "angle": 0,
+            "content": "Author Contributions: Conceptualization, M.M.; Methodology, M.M., V.V., K.A. and D.M.; Software, V.V., K.A. and D.M.; Validation, V.V.; Automation, K.A. and D.M.; Data Collection, K.A.; Writing—Original Draft Preparation, V.V., K.A. and D.M.; Writing—Review & Editing, V.V., K.A., D.M. and M.M.; Visualization, K.A.; Supervision, M.M. All authors have read and agreed to the published version of the manuscript."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.269,
+                0.637,
+                0.283
+            ],
+            "angle": 0,
+            "content": "Funding: This research received no external funding."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.29,
+                0.651,
+                0.305
+            ],
+            "angle": 0,
+            "content": "Institutional Review Board Statement: Not applicable."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.311,
+                0.591,
+                0.325
+            ],
+            "angle": 0,
+            "content": "Informed Consent Statement: Not applicable."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.332,
+                0.942,
+                0.374
+            ],
+            "angle": 0,
+            "content": "Data Availability Statement: The dataset, along with the framework used to generate the dataset, can be found on the GitHub repository (https://github.com/kanakaero/Dataset-of-Aerodynamic-and-Geometric-Coefficients-of-Airfoils accessed on 29 April 2024)."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.273,
+                0.381,
+                0.945,
+                0.535
+            ],
+            "angle": 0,
+            "content": "Acknowledgments: We would like to acknowledge the support of the Computer Science Engineering Department at the Manipal Institute of Technology, MAHE, Manipal, Karnataka, India. for giving us access to their supercomputer, \"MIT Cloud GPU\". We would also like to acknowledge the National Supercomputing Mission (NSM) for providing us with the computing resources of 'PARAM UTKARSH' at CDAC Knowledge Park, Bengaluru, Karnataka, India which is implemented by CDAC and supported by the Ministry of Electronics and Information Technology (MeitY) and the Department of Science and Technology (DST), Government of India. We also acknowledge the support of the Aeronautical and Automobile Engineering Department at the Manipal Institute of Technology, MAHE, Manipal, Karnataka, India, for all their support along the way. We authors would like to thank Noble Sharma, Senior Application Engineer, Engine Systems, Gamma Technologies, Pune, India, for extending his support in performing the CFD analysis in OpenFOAM."
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.274,
+                0.541,
+                0.712,
+                0.555
+            ],
+            "angle": 0,
+            "content": "Conflicts of Interest: The authors declare no conflicts of interest."
+        },
+        {
+            "type": "title",
+            "bbox": [
+                0.057,
+                0.567,
+                0.145,
+                0.58
+            ],
+            "angle": 0,
+            "content": "References"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.055,
+                0.584,
+                0.941,
+                0.611
+            ],
+            "angle": 0,
+            "content": "1. Zhang, Z.; Zhu, L. A review on unmanned aerial vehicle remote sensing: Platforms, sensors, data processing methods, and applications. *Drones* 2023, 7, 398. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.613,
+                0.942,
+                0.639
+            ],
+            "angle": 0,
+            "content": "2. Lyu, X.; Li, X.; Dang, D.; Dou, H.; Wang, K.; Lou, A. Unmanned aerial vehicle (UAV) remote sensing in grassland ecosystem monitoring: A systematic review. Remote Sens. 2022, 14, 1096. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.641,
+                0.941,
+                0.667
+            ],
+            "angle": 0,
+            "content": "3. Yang, Z.; Yu, X.; Dedman, S.; Rosso, M.; Zhu, J.; Yang, J.; Xia, Y.; Tian, Y.; Zhang, G.; Wang, J. UAV remote sensing applications in marine monitoring: Knowledge visualization and review. Sci. Total Environ. 2022, 838, 155939. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.668,
+                0.942,
+                0.706
+            ],
+            "angle": 0,
+            "content": "4. Alexiou, S.; Efthimiou, N.; Karamesouti, M.; Papanikolaou, I.; Psomiadis, E.; Charizopoulos, N. Measuring annual sedimentation through high accuracy UAV-photogrammetry data and comparison with RUSLE and PESERA erosion models. Remote Sens. 2023, 15, 1339. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.058,
+                0.708,
+                0.941,
+                0.734
+            ],
+            "angle": 0,
+            "content": "5. Joshi, A.; Pradhan, B.; Gite, S.; Chakraborty, S. Remote-sensing data and deep-learning techniques in crop mapping and yield prediction: A systematic review. Remote Sens. 2023, 15, 2014. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.736,
+                0.942,
+                0.762
+            ],
+            "angle": 0,
+            "content": "6. Xiang, T.Z.; Xia, G.S.; Zhang, L. Mini-unmanned aerial vehicle-based remote sensing: Techniques, applications, and prospects. IEEE Geosci. Remote Sens. Mag. 2019, 7, 29-63. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.763,
+                0.941,
+                0.789
+            ],
+            "angle": 0,
+            "content": "7. Lucic, M.C.; Bouhamed, O.; Ghazzai, H.; Khanfor, A.; Massoud, Y. Leveraging UAVs to enable dynamic and smart aerial infrastructure for ITS and smart cities: An overview. *Drones* 2023, 7, 79. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.79,
+                0.942,
+                0.817
+            ],
+            "angle": 0,
+            "content": "8. Outay, F.; Mengash, H.A.; Adnan, M. Applications of unmanned aerial vehicle (UAV) in road safety, traffic and highway infrastructure management: Recent advances and challenges. Transp. Res. Part Policy Pract. 2020, 141, 116-129. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.818,
+                0.942,
+                0.844
+            ],
+            "angle": 0,
+            "content": "9. Chelioti, K.H.; Tsaimou, C.N.; Tsoukala, V.K. Unmanned Aerial Vehicles: A Survey on Monitoring Advancements for Port Infrastructure Applications. J. Eng. Proj. Prod. Manag. 2023, 13. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.845,
+                0.941,
+                0.872
+            ],
+            "angle": 0,
+            "content": "10. Skondras, A.; Karachaliou, E.; Tavantzis, I.; Tokas, N.; Valari, E.; Skalidi, I.; Bouvet, G.A.; Stylianidis, E. UAV Mapping and 3D Modeling as a Tool for Promotion and Management of the Urban Space. *Drones* 2022, 6, 115. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.873,
+                0.942,
+                0.9
+            ],
+            "angle": 0,
+            "content": "11. Martinez Rocamora Jr, B.; Lima, R.R.; Samarakoon, K.; Rathjen, J.; Gross, J.N.; Pereira, G.A. Oxpecker: A tethered uav for inspection of stone-mine pillars. *Drones* 2023, 7, 73. [CrossRef]"
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.055,
+                0.584,
+                0.942,
+                0.9
+            ],
+            "angle": 0,
+            "content": null
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.058,
+                0.152,
+                0.069
+            ],
+            "angle": 0,
+            "content": "Data 2024,9,64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.891,
+                0.06,
+                0.942,
+                0.072
+            ],
+            "angle": 0,
+            "content": "16 of 17"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.058,
+                0.103,
+                0.942,
+                0.145
+            ],
+            "angle": 0,
+            "content": "12. Muhmad Kamarulzaman, A.M.; Wan Mohd Jaafar, W.S.; Mohd Said, M.N.; Saad, S.N.M.; Mohan, M. UAV Implementations in Urban Planning and Related Sectors of Rapidly Developing Nations: A Review and Future Perspectives for Malaysia. Remote Sens. 2023, 15, 2845. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.058,
+                0.146,
+                0.942,
+                0.173
+            ],
+            "angle": 0,
+            "content": "13. Tagarakis, A.C.; Filippou, E.; Kalaitzidis, D.; Benos, L.; Busato, P.; Bochtis, D. Proposing UGV and UAV systems for 3D mapping of orchard environments. Sensors 2022, 22, 1571. [CrossRef] [PubMed]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.173,
+                0.942,
+                0.2
+            ],
+            "angle": 0,
+            "content": "14. Chen, C.; Tian, B.; Wu, W.; Duan, Y.; Zhou, Y.; Zhang, C. UAV photogrammetry in intertidal mudflats: Accuracy, efficiency, and potential for integration with satellite imagery. Remote Sens. 2023, 15, 1814. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.201,
+                0.942,
+                0.242
+            ],
+            "angle": 0,
+            "content": "15. Fiz, J.I.; Martin, P.M.; Cuesta, R.; Subías, E.; Codina, D.; Cartes, A. Examples and results of aerial photogrammetry in archeology with UAV: Geometric documentation, high resolution multispectral analysis, models and 3D printing. *Drones* 2022, 6, 59. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.242,
+                0.942,
+                0.269
+            ],
+            "angle": 0,
+            "content": "16. Orsini, C.; Benozzi, E.; Williams, V.; Rossi, P.; Mancini, F. UAV photogrammetry and GIS interpretations of extended archaeological contexts: The case of tacuil in the Calchaúí area (Argentina). *Drones* 2022, 6, 31. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.269,
+                0.942,
+                0.296
+            ],
+            "angle": 0,
+            "content": "17. Kim, J.; Kim, I.; Ha, E.; Choi, B. UAV Photogrammetry for Soil Surface Deformation Detection in a Timber Harvesting Area, South Korea. Forests 2023, 14, 980. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.296,
+                0.942,
+                0.338
+            ],
+            "angle": 0,
+            "content": "18. Basyuni, M.; Wirasatriya, A.; Iryanthony, S.B.; Amelia, R.; Slamet, B.; Sulistiyono, N.; Pribadi, R.; Sumarga, E.; Eddy, S.; Al Mustaniroh, S.S.; et al. Aboveground biomass and carbon stock estimation using UAV photogrammetry in Indonesian mangroves and other competing land uses. *Ecol. Inform.* 2023, 77, 102227. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.338,
+                0.942,
+                0.365
+            ],
+            "angle": 0,
+            "content": "19. Yakar, M.; Ulvi, A.; Yiğit, A.Y.; Alptekin, A. Discontinuity set extraction from 3D point clouds obtained by UAV Photogrammetry in a rockfall site. Surv. Rev. 2023, 55, 416-428. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.365,
+                0.942,
+                0.392
+            ],
+            "angle": 0,
+            "content": "20. Alam, F.; Jin, Y. The Utilisation of Small Wind Turbines in Built-Up Areas: Prospects and Challenges. Wind 2023, 3, 418-438. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.392,
+                0.942,
+                0.419
+            ],
+            "angle": 0,
+            "content": "21. Aravindhan, N.; Natarajan, M.; Ponnuvel, S.; Devan, P. Recent developments and issues of small-scale wind turbines in urban residential buildings-A review. Energy Environ. 2023, 34, 1142-1169. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.419,
+                0.697,
+                0.433
+            ],
+            "angle": 0,
+            "content": "22. Oral, F. Use of small-scale wind turbines in road lighting. Light Eng. 2023, 31. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.433,
+                0.942,
+                0.46
+            ],
+            "angle": 0,
+            "content": "23. Greening, B.; Azapagic, A. Environmental impacts of micro-wind turbines and their potential to contribute to UK climate change targets. Energy 2013, 59, 454-466. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.46,
+                0.942,
+                0.487
+            ],
+            "angle": 0,
+            "content": "24. Li, J.; Zhang, M.; Tay, C.M.J.; Liu, N.; Cui, Y.; Chew, S.C.; Khoo, B.C. Low-Reynolds-number airfoil design optimization using deep-learning-based tailored airfoil modes. *Aerosp. Sci. Technol.* 2022, 121, 107309. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.488,
+                0.942,
+                0.515
+            ],
+            "angle": 0,
+            "content": "25. Du, X.; He, P.; Martins, J.R. Rapid airfoil design optimization via neural networks-based parameterization and surrogate modeling. *Aerosp. Sci. Technol.* **2021**, 113, 106701. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.515,
+                0.942,
+                0.542
+            ],
+            "angle": 0,
+            "content": "26. Bakar, A.; Li, K.; Liu, H.; Xu, Z.; Alessandrini, M.; Wen, D. Multi-objective optimization of low reynolds number airfoil using convolutional neural network and non-dominated sorting genetic algorithm. Aerospace 2022, 9, 35. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.542,
+                0.942,
+                0.569
+            ],
+            "angle": 0,
+            "content": "27. Chen, Z.; Wei, X.; Xiao, T.; Qin, N. Optimization of transonic low-Reynolds number airfoil based on genetic algorithm. Proc. Inst. Mech. Eng. Part J. Aerosp. Eng. 2024, 238, 44-60. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.569,
+                0.942,
+                0.597
+            ],
+            "angle": 0,
+            "content": "28. Ribeiro, A.; Awruch, A.; Gomes, H. An airfoil optimization technique for wind turbines. Appl. Math. Model. 2012, 36, 4898-4907. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.597,
+                0.942,
+                0.624
+            ],
+            "angle": 0,
+            "content": "29. Weller, H.G.; Tabor, G.; Jasak, H.; Fureby, C. A tensorial approach to computational continuum mechanics using object-oriented techniques. Comput. Phys. 1998, 12, 620-631. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.624,
+                0.806,
+                0.638
+            ],
+            "angle": 0,
+            "content": "30. Kulfan, B.M. Universal parametric geometry representation method. J. Aircr. 2008, 45, 142-158. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.639,
+                0.942,
+                0.665
+            ],
+            "angle": 0,
+            "content": "31. Selig, M. UIUC Airfoil Coordinates Database, Version 2.0, Contains Coordinates for Approximately 1600 Airfoils. Available online: https://m-selig.ae.illinois.edu/ads/coord_database.html. (accessed on 3 March 2024)."
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.665,
+                0.74,
+                0.679
+            ],
+            "angle": 0,
+            "content": "32. Airfoil Tools. Available online: http://www.airfoiltools.com/index. (accessed on 3 March 2024)."
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.679,
+                0.942,
+                0.705
+            ],
+            "angle": 0,
+            "content": "33. Josh. Available online: http://www.joshtheengineer.com/2019/01/30/uiuc-airfoil-database-file-download/. (accessed on 3 March 2024)."
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.706,
+                0.942,
+                0.733
+            ],
+            "angle": 0,
+            "content": "34. Paula, A.A.d. The Airfoil Thickness Effects on Wavy Leading Edge Phenomena at Low Reynolds Number Regime. Ph.D. Thesis, Universidade de Sao Paulo, Sao Paulo, Brazil, 2016."
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.734,
+                0.942,
+                0.761
+            ],
+            "angle": 0,
+            "content": "35. Pramudita Satria Palar. Available online: https://pramsatriapalar.wordpress.com/2017/02/24/how-to-fit-your-airfoil-with-cst-parameters/ (accessed on 3 March 2024)."
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.761,
+                0.942,
+                0.789
+            ],
+            "angle": 0,
+            "content": "36. Douvi, E.; Athanasios, T.; Margaris, D. Evaluation of the turbulence models for the simulation of the flow over a National Advisory Committee for Aeronautics (NACA) 0012 airfoil. J. Mech. Eng. Res. 2012, 4, 100-111. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.789,
+                0.942,
+                0.815
+            ],
+            "angle": 0,
+            "content": "37. Turbulence Modeling Resource. Available online: https://turbmodels.larc.nasa.gov/spalart.html#sa. (accessed on 3 March 2024)."
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.816,
+                0.942,
+                0.842
+            ],
+            "angle": 0,
+            "content": "38. Jacobs, E.N.; Sherman, A. Airfoil section characteristics as affected by variations of the Reynolds number. NACA Tech. Rep. 1937, 586, 227-267."
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.843,
+                0.754,
+                0.856
+            ],
+            "angle": 0,
+            "content": "39. Selig, M.S. Summary of Low Speed Airfoil Data; SoarTech Publications: Virginia Beach, Virginia, 1995."
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.857,
+                0.942,
+                0.871
+            ],
+            "angle": 0,
+            "content": "40. Van Dam, C.P. Recent experience with different methods of drag prediction. Prog. Aerosp. Sci. 1999, 35, 751-798. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.057,
+                0.871,
+                0.942,
+                0.898
+            ],
+            "angle": 0,
+            "content": "41. Keane, A.J.; Sobester, A.; Scanlan, J.P. Small Unmanned Fixed-Wing Aircraft Design: A Practical Approach; John Wiley & Sons: Hoboken, NJ, USA, 2017."
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.057,
+                0.103,
+                0.942,
+                0.898
+            ],
+            "angle": 0,
+            "content": null
+        }
+    ],
+    [
+        {
+            "type": "header",
+            "bbox": [
+                0.057,
+                0.058,
+                0.152,
+                0.069
+            ],
+            "angle": 0,
+            "content": "Data 2024,9,64"
+        },
+        {
+            "type": "page_number",
+            "bbox": [
+                0.891,
+                0.06,
+                0.941,
+                0.072
+            ],
+            "angle": 0,
+            "content": "17 of 17"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.055,
+                0.104,
+                0.942,
+                0.132
+            ],
+            "angle": 0,
+            "content": "42. Yang, L.; Zhang, G. Analysis of Influence of Different Parameters on Numerical Simulation of NACA0012 Incompressible External Flow Field under High Reynolds Numbers. Appl. Sci. 2022, 12, 416. [CrossRef]"
+        },
+        {
+            "type": "ref_text",
+            "bbox": [
+                0.055,
+                0.132,
+                0.731,
+                0.147
+            ],
+            "angle": 0,
+            "content": "43. Kingma, D.P.; Ba, J. Adam: A method for stochastic optimization. arXiv 2014, arXiv:1412.6980."
+        },
+        {
+            "type": "list",
+            "bbox": [
+                0.055,
+                0.104,
+                0.942,
+                0.147
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.054,
+                0.16,
+                0.943,
+                0.202
+            ],
+            "angle": 0,
+            "content": "Disclaimer/Publisher's Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content."
+        }
+    ]
+]
