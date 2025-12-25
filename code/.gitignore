@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 虚拟环境
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 输出文件
+outputs/models/*.pth
+outputs/logs/*.log
+outputs/figures/*.png
+outputs/summaries/*.txt
+
+# 数据文件（保留.gitkeep）
+data/dataset.npz
+
+# 临时文件
+*.tmp
+*.bak
+.DS_Store
